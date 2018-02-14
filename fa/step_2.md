@@ -1,14 +1,14 @@
-## What you will need
+## آنچه شما نیاز دارید
 
-### Hardware
+### سخت افزار
 
-- Raspberry Pi
-- pi-stop traffic lights or 3x LEDs and resistors
+- تمشک پی
+- چراغ ترافیک pi-stop یا 3x LEDs و مقاومت
 
-### Software
+### نرم افزار
 
-You will need to install EduBlocks. Open a terminal window and enter the following command:
+شما باید EduBlocks را نصب کنید. یک پنجره ترمینال را باز کنید و دستور زیر را وارد کنید:
 
 ```bash
-curl -sSL get.edublocks.org | bash
+curl -sSL get.edublocks.org | باشه
 ```
