@@ -1,3 +1,3 @@
-## Introduction
+## معرفی
 
-Learn to control traffic light LEDs and code a traffic lights sequence using EduBlocks
+یاد بگیرید برای کنترل نور چراغ های چراغ راهنمایی و کد رهگیری چراغ راهنمایی با استفاده از EduBlocks
