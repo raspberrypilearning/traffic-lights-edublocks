@@ -1,27 +1,27 @@
-## Traffic lights sequence
+## Sequenza dei semafori
 
-1. The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Bring in the `import time` block from the **Basic** section. Try this example to turn the lights on in sequence:
+1. Il `on` la funzione ti permette di accendere una luce. È possibile utilizzare `sleep` per mettere in pausa tra i comandi. Inserisci il `tempo di importazione` blocco da **Basic** sezione. Prova questo esempio per accendere le luci in sequenza:
     
     ![](images/edublocks4.png)
     
-    The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+    I controlli principali per i LED sono `on`, `off`, `toggle` e `lampeggia`.
 
-2. Try turning the lights on and off in sequence:
+2. Prova ad accendere e spegnere le luci in sequenza:
     
     ![](images/edublocks5.png)
 
-3. Try repeating this by putting the code inside a `while` loop:
+3. Prova a ripetere questo inserendo il codice all'interno di `while` ciclo continuo:
     
     ![](images/edublocks6.png)
 
-4. Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+4. Ora sai come controllare le luci individualmente e cronometrare le pause tra i comandi, puoi creare una sequenza di semafori? La sequenza va:
     
-    - Green on
-    - Amber on
-    - Red on
-    - Red and amber on
-    - Green on
+    - Verde acceso
+    - Ambra
+    - Rosso acceso
+    - Rosso e ambra
+    - Verde acceso
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+È importante pensare ai tempi. Per quanto tempo dovrebbero rimanere accese le luci in ogni fase?
 
-Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
+Una volta completata la sequenza del semaforo, potresti provare ad aggiungere un pulsante e un cicalino per creare un semaforo interattivo per un passaggio pedonale.
