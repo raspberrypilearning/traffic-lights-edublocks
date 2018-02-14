@@ -1,24 +1,24 @@
 ---
-title: Control a Traffic Lights Sequence with EduBlocks
-hero_image: images/banner.png
-description: Learn to control traffic light LEDs and code a traffic lights sequence using EduBlocks
-theme: red
+title: EduBlocksを使用した交通照明シーケンスの制御
+hero_image: images / banner.png
+description: EduBlocksを使用して信号灯のLEDを制御し、信号灯シーケンスをコードする方法を学ぶ
+theme: 赤
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
-interests: "physical computing"
-technologies: "electronics, physical computing, python, edublocks"
+curriculum: プログラミング-0、phys-comp-0
+interests: "物理計算"
+technologies: "エレクトロニクス、物理コンピューティング、python、edublocks"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: 前書き
   - 
-    title: What you will need
+    title: あなたが必要とするもの
   - 
-    title: Connect the LEDs
+    title: LEDを接続する
   - 
-    title: Control the LEDs
+    title: LEDの制御
   - 
-    title: Traffic lights sequence
+    title: 交通信号のシーケンス
