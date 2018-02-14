@@ -1,23 +1,23 @@
-## Control the LEDs
+## کنترل LED ها
 
-1. Open EduBlocks from the Desktop.
+1. EduBlocks را از دسکتاپ باز کنید.
 
-2. Click the **gpiozero** drop-down, click **General** and drag the `from gpiozero import *` block into the workspace.
+2. روی 123_8_0_321 | gpiozero</strong> کلیک کنید کشویی، کلیک کنید **عمومی** و از 12301_3_3_ | مسدود شدن به فضای کاری
     
     ![](images/edublocks1.png)
 
-3. Click the **Outputs** drop-down under **gpiozero** and click **LED**. Drag an `led = LED(pin)` block into the workspace beneath the import block. Rename the variable from `led` to `red`, and change `pin` to `22`.
+3. روی **خروجی ها** کشویی زیر **gpiozero** و کلیک کنید **LED**. 123_6_0_321 | led = LED (پین) را بکشید</code> بلوک به فضای کاری زیر بلوک واردات. متغیر را از `led` تغییر نام دهید به `قرمز`و تغییر `پین` به `22`.
 
-4. Drag in an `led.on` block, and dock it beneath the previous block. Change the `on` drop-down to `blink`. Your code blocks should now look like this:
+4. در یک `led.on` بلوک و آن را در زیر بلوک قبلی قرار دهید. تغییر `در` به 123 | اکنون بلوک های کد شما باید اینگونه باشد:
     
     ![](images/edublocks2.png)
 
-5. Now click the **Run** button to run your code. You should see the red LED blink.
+5. اکنون روی **اجرای** کلیک کنید دکمه برای اجرای کد شما. شما باید LED قرمز چشمک بزنید.
 
-6. Now add some more LED blocks to introduce the other two lights, and make them blink at different speeds:
+6. اکنون چند بلوک LED اضافه کنید تا دو چراغ دیگر را معرفی کنید و آنها را با سرعت های مختلفی متمرکز کنید:
     
     ![](images/edublocks3.png)
 
-7. Run your code again and you should see the three lights flashing at different rates.
+7. دوباره کد خود را اجرا کنید و باید سه چراغ را با نرخ های مختلف ببینید.
 
-8. If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+8. اگر یک عدد بزرگتر باعث می شود که نور چشمک زدن کند، چه عدد آن را سریعتر اجرا می کند؟ سعی کنید که چراغ های خود را سریعتر روشن کنید.
