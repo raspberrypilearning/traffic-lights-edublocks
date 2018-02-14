@@ -1,24 +1,24 @@
 ---
-title: Control a Traffic Lights Sequence with EduBlocks
-hero_image: images/banner.png
-description: Learn to control traffic light LEDs and code a traffic lights sequence using EduBlocks
-theme: red
+title: کنترل یک چراغ ترافیک با EduBlocks
+hero_image: images / banner.png
+description: یاد بگیرید برای کنترل نور چراغ های چراغ راهنمایی و کد رهگیری چراغ راهنمایی با استفاده از EduBlocks
+theme: سرخ
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
-interests: "physical computing"
-technologies: "electronics, physical computing, python, edublocks"
+curriculum: programming-0، phys-comp-0
+interests: "محاسبات فیزیکی"
+technologies: "الکترونیک، محاسبات فیزیکی، پایتون، edublocks"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: معرفی
   - 
-    title: What you will need
+    title: آنچه شما نیاز دارید
   - 
-    title: Connect the LEDs
+    title: LED ها را وصل کنید
   - 
-    title: Control the LEDs
+    title: کنترل LED ها
   - 
-    title: Traffic lights sequence
+    title: ترتیب چراغ راهنمایی
