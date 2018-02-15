@@ -1,23 +1,23 @@
-## Bedien de LED's
+## Stuur de LED's aan
 
-1. Open EduBlocks vanaf het bureaublad.
+1. Open vanaf het bureaublad het programma EduBlocks.
 
-2. Klik op de **gpiozero** drop-down, klik **Algemeen** en sleep de `from gpiozero import *` blokkeren in de werkruimte.
+2. Klik op de **gpiozero** uitklap menu, klik **General** en sleep het `from gpiozero import *` blok naar de werkruimte.
     
     ![](images/edublocks1.png)
 
-3. Klik op de **Uitvoer** drop-down onder **gpiozero** en klik op **LED**. Sleep een `led = LED (pin)` blokkeren in de werkruimte onder het importblok. Hernoem de variabele van `led` naar `red`, and change `pin` naar `22`.
+3. Klik op de **Outputs** drop-down onder **gpiozero** en klik op **LED**. Sleep een `led = LED (pin)` blok naar de werkruimte onder het importblok. Hernoem de variabele van `led` naar `rood`, and verander `pin` naar `22`.
 
-4. Sleep in een `led.on` blokkeren en plaats het onder het vorige blok. Verander de `on` drop-down naar `knipperen`. Uw codeblokken moeten er nu als volgt uitzien:
+4. Sleep een `led.on` blok en plaats het onder het vorige blok. Verander de `on` drop-down naar `blink`. Je codeblokken moeten er nu als volgt uitzien:
     
     ![](images/edublocks2.png)
 
-5. Klik nu op de **Uitvoeren** knop om uw code uit te voeren. Je zou de rode LED moeten zien knipperen.
+5. Klik nu op de **Run** knop om je code uit te voeren. Je zou de rode LED moeten zien knipperen.
 
-6. Voeg nu nog meer LED-blokken toe om de andere twee lampen te introduceren en laat ze op verschillende snelheden knipperen:
+6. Voeg nu nog meer LED-blokken toe om de andere twee LED's aan te sturen en laat ze op verschillende snelheden knipperen:
     
     ![](images/edublocks3.png)
 
-7. Voer uw code opnieuw uit en u zou de drie lampjes met verschillende snelheden moeten zien knipperen.
+7. Voer je code opnieuw uit en je zou de drieLED's met verschillende snelheden moeten zien knipperen.
 
-8. Als een groter getal het lampje langzamer laat knipperen, welk cijfer zou het dan sneller laten werken? Probeer je lichten sneller te laten knipperen.
+8. Als een groter getal het lampje langzamer laat knipperen, welk cijfer zou het dan sneller laten knipperen? Probeer je Led's sneller te laten knipperen.
