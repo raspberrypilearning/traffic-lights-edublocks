@@ -1,19 +1,19 @@
 ---
 title: Bestuur een verkeerslicht met EduBlocks
-hero_image: afbeeldingen / banner.png
+hero_image: images / banner.png
 description: Leer een verkeerslicht te besturen en te programmeren met behulp van EduBlocks
-theme: rood
+theme: red
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programmeren-0, computer techniek-0
-interests: "computergebruik"
-technologies: "elektronica, computer techniek, python, edublocks"
+curriculum: programming-0, phys-comp-0
+interests: "physical computing"
+technologies: "electronics, physical computing, python"
 site_areas: ""
 steps:
   - 
-    title: Introductie
+    title: Inleiding
   - 
     title: Wat heb je nodig
   - 
