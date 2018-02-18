@@ -1,27 +1,27 @@
 ## Séquence de feux de circulation
 
-1. Le `on` fonction vous permet d'allumer une lumière. Vous pouvez utiliser `sleep` pour faire une pause entre les commandes. Apportez le `temps d'importation` bloquer depuis le **Basic** section. Essayez cet exemple pour allumer les lumières en séquence:
+1. La fonction `on` vous permet d'allumer un feux. Vous pouvez utiliser `sleep` pour faire une pause entre les commandes. Glissez le bloc `import time` à partir de la section **Basic**. Essayez cet exemple pour allumer les feux en séquence:
     
     ![](images/edublocks4.png)
     
-    Les commandes principales des voyants sont les suivantes: `on`, `off`, `toggle` et `blink`.
+    Les commandes principales pour les DELs sont `on`, `off`, `toggle` et `blink`.
 
-2. Essayez d'allumer et d'éteindre les lumières dans l'ordre:
+2. Essayez d'allumer et d'éteindre les feux en séquence:
     
     ![](images/edublocks5.png)
 
-3. Essayez de répéter ceci en plaçant le code dans un `while` boucle:
+3. Essayez de répéter ceci en plaçant le code dans une boucle `while`:
     
     ![](images/edublocks6.png)
 
-4. Maintenant, vous savez comment contrôler les lumières individuellement, et le temps des pauses entre les commandes, pouvez-vous créer une séquence de feux de circulation? La séquence va:
+4. Maintenant que vous savez comment contrôler les feux individuellement et régler les pauses entre les commandes, pouvez-vous créer une séquence de feux de circulation? Voici la séquence:
     
-    - Vert sur
-    - Ambre sur
-    - Rouge sur
-    - Rouge et ambre sur
-    - Vert sur
+    - Vert allumé
+    - Jaune allumé
+    - Rouge allumé
+    - Vert allumé
+    - ...
 
-Il est important de penser au timing. Combien de temps les lumières doivent-elles rester allumées à chaque étape?
+Il est important de penser à la durée de chacun des feux. Combien de temps chaque feux devrait-il rester allumé?
 
-Une fois la séquence de feu de circulation terminée, vous pouvez essayer d'ajouter un bouton et un buzzer pour créer un feu de circulation interactif pour un passage pour piétons.
+Une fois que vous aurez complété la séquence de feux de circulation, vous pourriez essayer d'y ajouter un bouton ou un avertisseur sonore pour la rendre interactive pour une traverse de piétons.
