@@ -1,3 +1,3 @@
-## introduction
+## Introduction
 
-Apprenez à contrôler les voyants du feu et à coder une séquence de feux de circulation à l'aide d'EduBlocks
+Apprenez à contrôler les DELs du feu et à coder une séquence de feux de circulation avec EduBlocks
