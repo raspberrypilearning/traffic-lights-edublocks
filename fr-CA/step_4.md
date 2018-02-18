@@ -8,7 +8,7 @@
 
 3. Cliquez le menu dérounalt **Outputs** sous **gpiozero** et cliquez sur **LED**. Glissez un bloc `led = LED(pin)` dans l'espace de travail sous le bloc import. Renommez la variable de `led` à `rouge` et changez `pin` pour `22`.
 
-4. Faites glisser dans un `led.on` bloquer, et l'ancrer sous le bloc précédent. Changer le `on` menu déroulant à `blink`. Vos blocs de code devraient maintenant ressembler à ceci:
+4. Glissez un bloc `led.on` et imbriquez le sous le bloc précédent. Changez la valeur du menu déroulant de `on` à `blink`. Votre code devrait maintenant avoir l'air de ceci:
     
     ![](images/edublocks2.png)
 
