@@ -1,12 +1,12 @@
-## Contrôler les LED
+## Contrôlez les DELs
 
-1. Ouvrez EduBlocks à partir du bureau.
+1. Lancez EduBlocks à partir du Bureau.
 
-2. Cliquez sur le **gpiozero** menu déroulant, cliquez sur **Général** et faites glisser le `depuis gpiozero import *` bloquer dans l'espace de travail.
+2. Cliquez le menu déroulant **gpiozero**, cliquez **General** et glissez le bloc `from gpiozero import *` dans l'espace de travail.
     
     ![](images/edublocks1.png)
 
-3. Cliquez sur le **Sorties** menu déroulant sous **gpiozero** et cliquez sur **LED**. Faites glisser un `led = LED (pin)` bloquer dans l'espace de travail sous le bloc d'importation. Renommez la variable de `led` à `red`, et changer `pin` à `22`.
+3. Cliquez le menu dérounalt **Outputs** sous **gpiozero** et cliquez sur **LED**. Glissez un bloc `led = LED(pin)` dans l'espace de travail sous le bloc import. Renommez la variable de `led` à `rouge` et changez `pin` pour `22`.
 
 4. Faites glisser dans un `led.on` bloquer, et l'ancrer sous le bloc précédent. Changer le `on` menu déroulant à `blink`. Vos blocs de code devraient maintenant ressembler à ceci:
     
