@@ -12,12 +12,12 @@
     
     ![](images/edublocks2.png)
 
-5. Maintenant, cliquez sur le **Run** bouton pour exécuter votre code. Vous devriez voir la LED rouge clignoter.
+5. Maintenant cliquez le bouton **Run** pour exécuter votre code. Vous devriez voir la DEL rouge clignoter.
 
-6. Maintenant ajoutez quelques blocs de LED supplémentaires pour introduire les deux autres lumières, et les faire clignoter à des vitesses différentes:
+6. Maintenant, ajoutez des blocs LED de plus pour introduire les deux autres feux et les faire clignoter à différentes vitesses:
     
     ![](images/edublocks3.png)
 
-7. Exécutez votre code à nouveau et vous devriez voir les trois lumières clignotant à des taux différents.
+7. Exécutez votre code à nouveau et vous devriez voir les trois feux clignoter à des vitesses différentes.
 
-8. Si un plus grand nombre clignote plus lentement, quel nombre le ferait fonctionner plus vite? Essayez de faire clignoter vos lumières plus rapidement.
+8. Si un nombre plus élevé fait clignoter un feux plus lentement, quel nombre le ferait clignoter plus rapidement? Essayez de faire clignoter vos feux plus rapidement.
