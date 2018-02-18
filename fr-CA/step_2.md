@@ -1,14 +1,14 @@
-## Ce dont tu auras besoin
+## Ce dont vous aurez besoin
 
 ### Matériel
 
-- Tarte aux framboises
-- feux de circulation pi-stop ou LED 3x et résistances
+- Raspberry Pi
+- Feux de circulation pi-stop ou 3x DELs et résistances
 
 ### Logiciel
 
-Vous devrez installer EduBlocks. Ouvrez une fenêtre de terminal et entrez la commande suivante:
+Vous aurez besoin d'installer EduBlocks. Lancez un terminal et entrez-y la commande suivante:
 
 ```bash
-curl -sSL get.edublocks.org | frapper
+curl -sSL get.edublocks.org | bash
 ```
