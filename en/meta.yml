@@ -8,7 +8,7 @@ ingredient: false
 copyedit: false
 curriculum: programming-0, phys-comp-0
 interests: "physical computing"
-technologies: "electronics, physical computing, python, edublocks"
+technologies: "electronics, physical computing, python"
 site_areas:
 steps:
   - title: Introduction
