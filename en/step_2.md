@@ -1,14 +1,15 @@
-## What you will need
+## Connect the LEDs
 
-### Hardware
+--- task ---
 
-- Raspberry Pi
-- pi-stop traffic lights or 3x LEDs and resistors
+Connect your LEDs to the following pins:
 
-### Software
+| LED   | GPIO pin |
+| ----- | :------: |
+| Red   |    22    |
+| Amber |    27    |
+| Green |    17    |
 
-You will need to install EduBlocks. Open a terminal window and enter the following command:
+![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
 
-```bash
-curl -sSL get.edublocks.org | bash
-```
+--- /task ---
