@@ -1,24 +1,17 @@
 ---
-title: Steuern Sie eine Ampel Sequenz mit EduBlocks
-hero_image: Bilder / Banner.png
-description: Lernen Sie, mit Hilfe von EduBlocks Ampel-LEDs zu steuern und eine Ampelsequenz zu programmieren
-theme: rot
-duration: 2
+title: Traffic Lights with EduBlocks
+hero_image: images/banner.png
+description: Mit Hilfe von EduBlocks wirst du lernen Ampel-LEDs zu steuern und eine Ampelsequenz zu programmieren
 listed: false
-ingredient: false
 copyedit: false
-curriculum: Programmierung-0, Phys-Comp-0
-interests: "physikalische Datenverarbeitung"
-technologies: "Elektronik, physikalisches Rechnen, Python, Eduklocks"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-20
 steps:
   - 
-    title: Einführung
+    title: Einleitung
   - 
-    title: Was wirst du brauchen
+    title: Connect the LEDs
   - 
-    title: Verbinde die LEDs
+    title: Control the LEDs
   - 
-    title: Kontrolliere die LEDs
-  - 
-    title: Ampel Sequenz
+    title: Traffic lights sequence
