@@ -1,23 +1,43 @@
-## एल ई डी को नियंत्रित करें
+## Traffic lights sequence
 
-1. डेस्कटॉप से ​​एडुब्लॉक खोलें
+\--- task \---
 
-2. 123_8_0_321 | gpiozero</strong> पर क्लिक करें ड्रॉप-डाउन, क्लिक करें **जनरल** और gpiozero आयात से | 123_6_4_321 खींचें *</code> कार्यक्षेत्र में ब्लॉक करें
-    
-    ![](images/edublocks1.png)
+The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Bring in the `import time` block from the **Basic** section. Try this example to turn the lights on in sequence:
 
-3. 123_8_0_321 | आउटपुट</strong> पर क्लिक करें ड्रॉप-डाउन के नीचे **जीपीओजरो** और क्लिक करें **LED** खींचें `नेतृत्व = एलईडी (पिन)` आयात ब्लॉक के नीचे कार्यस्थान में ब्लॉक करें से चर का नाम बदलें `नेतृत्व` 123456 | से `22`
+![](images/edublocks4.png)
 
-4. एक में खींचें `नेतृत्व किया` ब्लॉक, और पिछले ब्लॉक के नीचे इसे डॉक करें बदलें `पर` ड्रॉप डाउन `ब्लिंक` आपका कोड ब्लॉक अब इस तरह दिखना चाहिए:
-    
-    ![](images/edublocks2.png)
+The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
 
-5. अब **रन** पर क्लिक करें अपना कोड चलाने के लिए बटन आपको लाल एलईडी पलक देखना चाहिए
+\--- /task \---
 
-6. अब अन्य दो रोशनी पेश करने के लिए कुछ और एलईडी ब्लॉकों को जोड़ें, और उन्हें अलग-अलग गति पर पलक करें:
-    
-    ![](images/edublocks3.png)
+\--- task \---
 
-7. अपना कोड फिर से चलाएं और आपको तीन बजे विभिन्न दरों पर चमकता दिखाई देना चाहिए।
+Try turning the lights on and off in sequence:
 
-8. अगर बड़ी संख्या में हल्की झपकी धीमी हो जाती है, तो वह संख्या कितनी तेजी से चलती है? अपनी रोशनी तेजी से पलक बनाने की कोशिश करें
+![](images/edublocks5.png)
+
+\--- /task \---
+
+\--- task \---
+
+Try repeating this by putting the code inside a `while` loop:
+
+![](images/edublocks6.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
+
+It's important to think about timing. How long should the lights stay on for at each stage?
+
+\--- /task \---
+
+Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
