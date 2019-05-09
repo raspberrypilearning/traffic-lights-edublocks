@@ -1,23 +1,43 @@
-## Stuur de LED's aan
+## Traffic lights sequence
 
-1. Open vanaf het bureaublad het programma EduBlocks.
+\--- task \---
 
-2. Klik op de **gpiozero** uitklap menu, klik **General** en sleep het `from gpiozero import *` blok naar de werkruimte.
-    
-    ![](images/edublocks1.png)
+The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Bring in the `import time` block from the **Basic** section. Try this example to turn the lights on in sequence:
 
-3. Klik op de **Outputs** drop-down onder **gpiozero** en klik op **LED**. Sleep een `led = LED (pin)` blok naar de werkruimte onder het importblok. Hernoem de variabele van `led` naar `rood`, and verander `pin` naar `22`.
+![](images/edublocks4.png)
 
-4. Sleep een `led.on` blok en plaats het onder het vorige blok. Verander de `on` drop-down naar `blink`. Je codeblokken moeten er nu als volgt uitzien:
-    
-    ![](images/edublocks2.png)
+The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
 
-5. Klik nu op de **Run** knop om je code uit te voeren. Je zou de rode LED moeten zien knipperen.
+\--- /task \---
 
-6. Voeg nu nog meer LED-blokken toe om de andere twee LED's aan te sturen en laat ze op verschillende snelheden knipperen:
-    
-    ![](images/edublocks3.png)
+\--- task \---
 
-7. Voer je code opnieuw uit en je zou de drieLED's met verschillende snelheden moeten zien knipperen.
+Try turning the lights on and off in sequence:
 
-8. Als een groter getal het lampje langzamer laat knipperen, welk cijfer zou het dan sneller laten knipperen? Probeer je Led's sneller te laten knipperen.
+![](images/edublocks5.png)
+
+\--- /task \---
+
+\--- task \---
+
+Try repeating this by putting the code inside a `while` loop:
+
+![](images/edublocks6.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
+
+It's important to think about timing. How long should the lights stay on for at each stage?
+
+\--- /task \---
+
+Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
