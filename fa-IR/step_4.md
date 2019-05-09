@@ -1,23 +1,43 @@
-## کنترل LED ها
+## Traffic lights sequence
 
-1. EduBlocks را از دسکتاپ باز کنید.
+\--- task \---
 
-2. روی 123_8_0_321 | gpiozero</strong> کلیک کنید کشویی، کلیک کنید **عمومی** و از 12301_3_3_ | مسدود شدن به فضای کاری
-    
-    ![](images/edublocks1.png)
+The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Bring in the `import time` block from the **Basic** section. Try this example to turn the lights on in sequence:
 
-3. روی **خروجی ها** کشویی زیر **gpiozero** و کلیک کنید **LED**. 123_6_0_321 | led = LED (پین) را بکشید</code> بلوک به فضای کاری زیر بلوک واردات. متغیر را از `led` تغییر نام دهید به `قرمز`و تغییر `پین` به `22`.
+![](images/edublocks4.png)
 
-4. در یک `led.on` بلوک و آن را در زیر بلوک قبلی قرار دهید. تغییر `در` به 123 | اکنون بلوک های کد شما باید اینگونه باشد:
-    
-    ![](images/edublocks2.png)
+The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
 
-5. اکنون روی **اجرای** کلیک کنید دکمه برای اجرای کد شما. شما باید LED قرمز چشمک بزنید.
+\--- /task \---
 
-6. اکنون چند بلوک LED اضافه کنید تا دو چراغ دیگر را معرفی کنید و آنها را با سرعت های مختلفی متمرکز کنید:
-    
-    ![](images/edublocks3.png)
+\--- task \---
 
-7. دوباره کد خود را اجرا کنید و باید سه چراغ را با نرخ های مختلف ببینید.
+Try turning the lights on and off in sequence:
 
-8. اگر یک عدد بزرگتر باعث می شود که نور چشمک زدن کند، چه عدد آن را سریعتر اجرا می کند؟ سعی کنید که چراغ های خود را سریعتر روشن کنید.
+![](images/edublocks5.png)
+
+\--- /task \---
+
+\--- task \---
+
+Try repeating this by putting the code inside a `while` loop:
+
+![](images/edublocks6.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
+
+It's important to think about timing. How long should the lights stay on for at each stage?
+
+\--- /task \---
+
+Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
