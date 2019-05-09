@@ -1,14 +1,15 @@
-## Ce dont tu auras besoin
+## Connect the LEDs
 
-### Matériel
+\--- task \---
 
-- Tarte aux framboises
-- feux de circulation pi-stop ou LED 3x et résistances
+Connect your LEDs to the following pins:
 
-### Logiciel
+| LED   | GPIO pin |
+| ----- |:--------:|
+| Red   |    22    |
+| Amber |    27    |
+| Green |    17    |
 
-Vous devrez installer EduBlocks. Ouvrez une fenêtre de terminal et entrez la commande suivante:
+![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
 
-```bash
-curl -sSL get.edublocks.org | frapper
-```
+\--- /task \---
