@@ -1,14 +1,15 @@
-## あなたが必要とするもの
+## Connect the LEDs
 
-### ハードウェア
+\--- task \---
 
-- ラズベリーパイ
-- pi-stop信号または3x LEDと抵抗
+Connect your LEDs to the following pins:
 
-### ソフトウェア
+| LED   | GPIO pin |
+| ----- |:--------:|
+| Red   |    22    |
+| Amber |    27    |
+| Green |    17    |
 
-EduBlocksをインストールする必要があります。 端末ウィンドウを開き、次のコマンドを入力します。
+![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
 
-```bash
-curl -sSL get.edublocks.org |バッシュ
-```
+\--- /task \---
