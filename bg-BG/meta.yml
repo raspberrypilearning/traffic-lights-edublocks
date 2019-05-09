@@ -1,24 +1,17 @@
 ---
-title: Контролирайте последователността на светлините на трафика с EduBlocks
+title: Traffic Lights with EduBlocks
 hero_image: изображения / banner.png
 description: Научете как да управлявате светодиодите със светофар и да кодирате последователността на светофарите с помощта на EduBlocks
-theme: червен
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: програмиране-0, phys-comp-0
-interests: "физически изчисления"
-technologies: "електроника, физически изчисления, питън, едблок"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-20
 steps:
   - 
     title: Въведение
   - 
-    title: Какво ще ви трябва
+    title: Connect the LEDs
   - 
-    title: Свържете светодиодите
+    title: Control the LEDs
   - 
-    title: Контролирайте светодиодите
-  - 
-    title: Последователност на светофарите
+    title: Traffic lights sequence
