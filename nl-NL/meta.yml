@@ -1,24 +1,17 @@
 ---
-title: Bestuur een verkeerslicht met EduBlocks
-hero_image: images / banner.png
+title: Traffic Lights with EduBlocks
+hero_image: images/banner.png
 description: Leer een verkeerslicht te besturen en te programmeren met behulp van EduBlocks
-theme: red
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
-interests: "physical computing"
-technologies: "electronics, physical computing, python"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-20
 steps:
   - 
     title: Inleiding
   - 
-    title: Wat heb je nodig
+    title: Connect the LEDs
   - 
-    title: Verbind de LED's
+    title: Control the LEDs
   - 
-    title: Bestuur de LED's
-  - 
-    title: Verkeerslicht volgorde
+    title: Traffic lights sequence
