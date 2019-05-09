@@ -1,14 +1,15 @@
-## Di cosa avrai bisogno
+## Connect the LEDs
 
-### Hardware
+\--- task \---
 
-- Raspberry Pi
-- semafori pi-stop o 3x LED e resistori
+Connect your LEDs to the following pins:
 
-### Software
+| LED   | GPIO pin |
+| ----- |:--------:|
+| Red   |    22    |
+| Amber |    27    |
+| Green |    17    |
 
-Dovrai installare EduBlocks. Apri una finestra di terminale e inserisci il seguente comando:
+![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
 
-```bash
-curl -sSL get.edublocks.org | bash
-```
+\--- /task \---
