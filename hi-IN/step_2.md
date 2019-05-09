@@ -1,14 +1,15 @@
-## तुम क्या आवश्यकता होगी
+## Connect the LEDs
 
-### हार्डवेयर
+\--- task \---
 
-- रास्पबेरी पाई
-- पीआई-स्टॉप ट्रैफिक लाइट या 3x एल ई डी और प्रतिरोधक
+Connect your LEDs to the following pins:
 
-### सॉफ्टवेयर
+| LED   | GPIO pin |
+| ----- |:--------:|
+| Red   |    22    |
+| Amber |    27    |
+| Green |    17    |
 
-आपको एडुब्लॉक्स को स्थापित करना होगा। टर्मिनल विंडो खोलें और निम्न कमांड दर्ज करें:
+![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
 
-```bash
-कर्ल -एसएसएल प्राप्त करें। edublocks.org | दे घुमा के
-```
+\--- /task \---
