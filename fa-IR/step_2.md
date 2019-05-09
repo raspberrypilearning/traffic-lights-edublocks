@@ -1,14 +1,15 @@
-## آنچه شما نیاز دارید
+## Connect the LEDs
 
-### سخت افزار
+\--- task \---
 
-- تمشک پی
-- چراغ ترافیک pi-stop یا 3x LEDs و مقاومت
+Connect your LEDs to the following pins:
 
-### نرم افزار
+| LED   | GPIO pin |
+| ----- |:--------:|
+| Red   |    22    |
+| Amber |    27    |
+| Green |    17    |
 
-شما باید EduBlocks را نصب کنید. یک پنجره ترمینال را باز کنید و دستور زیر را وارد کنید:
+![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
 
-```bash
-curl -sSL get.edublocks.org | باشه
-```
+\--- /task \---
