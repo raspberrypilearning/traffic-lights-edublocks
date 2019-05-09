@@ -1,23 +1,43 @@
-## Kontrolliere die LEDs
+## Traffic lights sequence
 
-1. Öffne EduBlocks vom Desktop aus.
+\--- task \---
 
-2. Klicken Sie auf **gpiozero** Drop-Down, klicken Sie auf **Allgemein** und ziehen Sie die `von gpiozero import *` In den Arbeitsbereich blocken.
-    
-    ![](images/edublocks1.png)
+The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Bring in the `import time` block from the **Basic** section. Try this example to turn the lights on in sequence:
 
-3. Klicken Sie auf **Ausgaben** Drop-Down unter **gpiozero** und klicken Sie auf **LED**. Ziehen Sie eine `led = LED (pin)` Block in den Arbeitsbereich unter dem Importblock. Benennen Sie die Variable von `led` um zu `red`, und ändern `pin` zu `22`.
+![](images/edublocks4.png)
 
-4. Ziehen Sie in einem `led.on` Blockieren und docken Sie es unter dem vorherigen Block an. Ändern Sie die `on` Drop-Down zu `blink`. Ihre Code-Blöcke sollten nun wie folgt aussehen:
-    
-    ![](images/edublocks2.png)
+The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
 
-5. Klicken Sie nun auf **Ausführen** um den Code zu starten. Sie sollten sehen, dass die rote LED blinkt.
+\--- /task \---
 
-6. Fügen Sie nun einige weitere LED-Blöcke hinzu, um die anderen zwei Lichter einzublenden und sie mit verschiedenen Geschwindigkeiten blinken zu lassen:
-    
-    ![](images/edublocks3.png)
+\--- task \---
 
-7. Führen Sie Ihren Code erneut aus und Sie sollten die drei Lichter mit unterschiedlichen Geschwindigkeiten blinken sehen.
+Try turning the lights on and off in sequence:
 
-8. Wenn eine größere Zahl ein Licht langsamer blinkt, welche Zahl würde es schneller laufen lassen? Versuche, deine Lichter schneller blinken zu lassen.
+![](images/edublocks5.png)
+
+\--- /task \---
+
+\--- task \---
+
+Try repeating this by putting the code inside a `while` loop:
+
+![](images/edublocks6.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
+
+It's important to think about timing. How long should the lights stay on for at each stage?
+
+\--- /task \---
+
+Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
