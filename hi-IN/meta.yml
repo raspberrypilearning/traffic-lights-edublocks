@@ -1,24 +1,17 @@
 ---
-title: EduBlocks के साथ एक ट्रैफिक लाइट्स अनुक्रम को नियंत्रित करें
-hero_image: छवियों / banner.png
-description: ट्रैफिक लाइट एल ई डी को नियंत्रित करने और एडुब्लॉक्स का उपयोग कर ट्रैफिक लाइट अनुक्रम को नियंत्रित करने के बारे में जानें
-theme: लाल
-duration: 2
+title: Traffic Lights with EduBlocks
+hero_image: images/banner.png
+description: ट्रैफिक लाइट एल. ई. डी. को नियंत्रित करने और EduBlocks का उपयोग करके ट्रैफिक लाइट अनुक्रम को नियंत्रित करने के बारे में जानें
 listed: false
-ingredient: false
 copyedit: false
-curriculum: प्रोग्रामिंग -0, फिज़-कंप-0
-interests: "शारीरिक कंप्यूटिंग"
-technologies: "इलेक्ट्रॉनिक्स, भौतिक कंप्यूटिंग, अजगर, edublocks"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-20
 steps:
   - 
-    title: परिचय
+    title: भूमिका
   - 
-    title: तुम क्या आवश्यकता होगी
+    title: Connect the LEDs
   - 
-    title: एलआईडी कनेक्ट करें
+    title: Control the LEDs
   - 
-    title: एल ई डी को नियंत्रित करें
-  - 
-    title: ट्रैफिक लाइट अनुक्रम
+    title: Traffic lights sequence
