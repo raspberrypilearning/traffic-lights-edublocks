@@ -1,23 +1,43 @@
-## Irányítsa a LED-eket
+## Traffic lights sequence
 
-1. Nyissa meg az EduBlock-ot az Asztalról.
+\--- task \---
 
-2. Kattintson a **gpiozero** gombra legördülő menüből válassza a 123 123_8_2_321 | Általános</strong> és húzza a `-t a gpiozero importból *` blokkolja a munkaterületet.
-    
-    ![](images/edublocks1.png)
+The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Bring in the `import time` block from the **Basic** section. Try this example to turn the lights on in sequence:
 
-3. Kattintson a **Outputs** gombra legördülő menü alatt **gpiozero** és kattintson a 123_8_4_321 | LED</strong>gombra. Húzás `led = LED (pin)` blokkolja az import blokk alatt lévő munkaterületet. Nevezze át a 123_6_0_321 | led</code> változót 123_6_2_321 | piros</code>, és változtassa meg `pin` 123_6_6_321 | 22</code>.
+![](images/edublocks4.png)
 
-4. Húzza a `led.on` blokkolja és letegye az előző blokk alá. Módosítsa a `on` -t legördülő menü `villog`. A kódblokknak most így kell kinéznie:
-    
-    ![](images/edublocks2.png)
+The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
 
-5. Most kattintson a **Run** gombra gombot a kód futtatásához. Láthatja a piros LED villogását.
+\--- /task \---
 
-6. Add hozzá még néhány LED-blokkot, hogy bemutassák a másik két lámpát, és különböző sebességgel villogjanak:
-    
-    ![](images/edublocks3.png)
+\--- task \---
 
-7. Futtassa újra a kódot, és látni fogja, hogy a három lámpa villog, különböző sebességgel.
+Try turning the lights on and off in sequence:
 
-8. Ha egy nagyobb szám a lámpa villogását lassítja, akkor mekkora lesz a gyorsabb futás? Próbálja meg villogni a fények gyorsabban.
+![](images/edublocks5.png)
+
+\--- /task \---
+
+\--- task \---
+
+Try repeating this by putting the code inside a `while` loop:
+
+![](images/edublocks6.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
+
+It's important to think about timing. How long should the lights stay on for at each stage?
+
+\--- /task \---
+
+Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
