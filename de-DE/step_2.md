@@ -1,14 +1,15 @@
-## Was wirst du brauchen
+## Connect the LEDs
 
-### Hardware
+\--- task \---
 
-- Raspberry Pi
-- Pi Stop Ampeln oder 3x LEDs und Widerstände
+Connect your LEDs to the following pins:
 
-### Software
+| LED   | GPIO pin |
+| ----- |:--------:|
+| Red   |    22    |
+| Amber |    27    |
+| Green |    17    |
 
-Sie müssen EduBlocks installieren. Öffnen Sie ein Terminalfenster und geben Sie folgenden Befehl ein:
+![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
 
-```bash
-locken -sSL get.edublocks.org | bash
-```
+\--- /task \---
