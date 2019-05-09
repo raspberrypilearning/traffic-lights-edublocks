@@ -1,23 +1,43 @@
-## LEDの制御
+## Traffic lights sequence
 
-1. デスクトップからEduBlocksを開きます。
+\--- task \---
 
-2. **gpiozero**をクリックします。ドロップダウンで、**一般**をクリックします。 `をgpiozero import *`からドラッグしてください。ワークスペースにブロックします。
-    
-    ![](images/edublocks1.png)
+The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Bring in the `import time` block from the **Basic** section. Try this example to turn the lights on in sequence:
 
-3. **出力**をクリックします。ドロップダウン**gpiozero** **LED**をクリックします。 `led = LED（ピン）`インポートブロックの下のワークスペースにブロックします。 変数の名前を`led`から変更します。 `赤`と変更`ピン` | `22`に移動します。
+![](images/edublocks4.png)
 
-4. `led.on`でドラッグしてください。ブロックし、前のブロックの下にドッキングします。 `on`を変更してください。 `blink`にドロップダウンします。 コードブロックは次のようになります。
-    
-    ![](images/edublocks2.png)
+The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
 
-5. 今すぐ**Run**をクリックします。ボタンを押してコードを実行します。 赤いLEDが点滅するはずです。
+\--- /task \---
 
-6. 他の2つのライトを導入するためにいくつかのLEDブロックを追加し、それらを異なる速度で点滅させます：
-    
-    ![](images/edublocks3.png)
+\--- task \---
 
-7. コードをもう一度実行すると、3つのライトが異なる速度で点滅していることがわかります。
+Try turning the lights on and off in sequence:
 
-8. 大きい数字でライトを点滅させるのが遅くなると、どの数字が速くなるでしょうか？ あなたのライトが速く点滅するようにしてください。
+![](images/edublocks5.png)
+
+\--- /task \---
+
+\--- task \---
+
+Try repeating this by putting the code inside a `while` loop:
+
+![](images/edublocks6.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+
+- Green on
+- Amber on
+- Red on
+- Red and amber on
+- Green on
+
+It's important to think about timing. How long should the lights stay on for at each stage?
+
+\--- /task \---
+
+Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
