@@ -1,14 +1,15 @@
-## Amire szükséged lesz
+## Connect the LEDs
 
-### Hardver
+\--- task \---
 
-- Raspberry Pi
-- pi-stop jelzőlámpák vagy 3x LED-ek és ellenállások
+Connect your LEDs to the following pins:
 
-### Szoftver
+| LED   | GPIO pin |
+| ----- |:--------:|
+| Red   |    22    |
+| Amber |    27    |
+| Green |    17    |
 
-Telepítenie kell az EduBlockokat. Nyisson meg egy terminál ablakot, és írja be a következő parancsot:
+![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
 
-```bash
-göndör -sSL get.edublocks.org | bash
-```
+\--- /task \---
