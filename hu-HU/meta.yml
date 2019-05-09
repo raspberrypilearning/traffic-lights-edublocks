@@ -1,24 +1,17 @@
 ---
-title: A Traffic Lights szekvencia vezérlése az EduBlocks segítségével
+title: Traffic Lights with EduBlocks
 hero_image: images / banner.png
 description: Tanuld meg, hogy irányíthatja a közlekedési lámpák LED-jeit és kódolja a közlekedési lámpák sorrendjét az EduBlocks segítségével
-theme: piros
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: programozás-0, fizikai-comp-0
-interests: "fizikai számítástechnika"
-technologies: "elektronika, fizikai számítástechnika, python, edublokkok"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-20
 steps:
   - 
     title: Bevezetés
   - 
-    title: Amire szükséged lesz
+    title: Connect the LEDs
   - 
-    title: Csatlakoztassa a LED-eket
+    title: Control the LEDs
   - 
-    title: Irányítsa a LED-eket
-  - 
-    title: A közlekedési lámpa sorrendje
+    title: Traffic lights sequence
