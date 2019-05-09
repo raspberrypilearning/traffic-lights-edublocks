@@ -1,24 +1,17 @@
 ---
-title: کنترل یک چراغ ترافیک با EduBlocks
+title: Traffic Lights with EduBlocks
 hero_image: images / banner.png
 description: یاد بگیرید برای کنترل نور چراغ های چراغ راهنمایی و کد رهگیری چراغ راهنمایی با استفاده از EduBlocks
-theme: سرخ
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: programming-0، phys-comp-0
-interests: "محاسبات فیزیکی"
-technologies: "الکترونیک، محاسبات فیزیکی، پایتون، edublocks"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-20
 steps:
   - 
     title: معرفی
   - 
-    title: آنچه شما نیاز دارید
+    title: Connect the LEDs
   - 
-    title: LED ها را وصل کنید
+    title: Control the LEDs
   - 
-    title: کنترل LED ها
-  - 
-    title: ترتیب چراغ راهنمایی
+    title: Traffic lights sequence
