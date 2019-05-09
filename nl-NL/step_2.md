@@ -1,14 +1,15 @@
-## Wat heb je nodig
+## Connect the LEDs
 
-### Hardware
+\--- task \---
 
-- Raspberry Pi
-- pi-stop verkeerslichten of 3 LED's met weerstanden
+Connect your LEDs to the following pins:
 
-### Software
+| LED   | GPIO pin |
+| ----- |:--------:|
+| Red   |    22    |
+| Amber |    27    |
+| Green |    17    |
 
-Je moet EduBlocks installeren. Open een terminalvenster en voer de volgende opdracht in:
+![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
 
-```bash
-curl -sSL get.edublocks.org | bash
-```
+\--- /task \---
