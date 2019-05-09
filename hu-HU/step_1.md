@@ -1,3 +1,47 @@
 ## Bevezetés
 
-Tanuld meg, hogy irányíthatja a közlekedési lámpák LED-jeit és kódolja a közlekedési lámpák sorrendjét az EduBlocks segítségével
+Learn to control traffic light LEDs and code a traffic lights sequence using EduBlocks.
+
+\--- collapse \---
+
+* * *
+
+## title: What you will need
+
+- Raspberry Pi computer
+- LEDs: 
+    - pi-stop traffic light board
+    - or 3x LEDs and resistors
+
+You'll also need to download EduBlocks. Open a Terminal window and run the following command:
+
+```bash
+curl -sSL get.edublocks.org | bash
+```
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: What you will learn
+
+- Controlling your Raspberry Pi's GPIO pins using EduBlocks
+- Using LEDs with your Raspberry Pi
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Information for Jam organisers
+
+\--- no-print \---
+
+If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-EduBlocks.pdf) is available. Please observe any notes on this page before printing.
+
+\--- /no-print \---
+
+\--- /collapse \---
