@@ -4,14 +4,14 @@ hero_image: images/banner.png
 description: Leer een verkeerslicht te besturen en te programmeren met behulp van EduBlocks
 listed: false
 copyedit: false
-version: 4.1
-last_tested: 2018-11-20
+version: 4
+last_tested: 2017-01-01
 steps:
   - 
     title: Inleiding
   - 
-    title: Connect the LEDs
+    title: Wat heb je nodig
   - 
-    title: Control the LEDs
+    title: Verbind de LED's
   - 
-    title: Traffic lights sequence
+    title: Bestuur de LED's
