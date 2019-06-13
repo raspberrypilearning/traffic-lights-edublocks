@@ -1,14 +1,14 @@
-## Control the LEDs
+## Bedien de LED's
 
 \--- task \---
 
-Open EduBlocks from the Desktop.
+Open vanaf het bureaublad het programma EduBlocks.
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
-Click the **gpiozero** drop-down, click **General** and drag the `from gpiozero import *` block into the workspace.
+Klik op de **gpiozero** uitklap menu, klik **General** en sleep het `from gpiozero import *` blok naar de werkruimte.
 
 ![](images/edublocks1.png)
 
@@ -16,13 +16,13 @@ Click the **gpiozero** drop-down, click **General** and drag the `from gpiozero 
 
 \--- task \---
 
-Click the **Outputs** drop-down under **gpiozero** and click **LED**. Drag an `led = LED(pin)` block into the workspace beneath the import block. Rename the variable from `led` to `red`, and change `pin` to `22`.
+Klik op de **Outputs** drop-down onder **gpiozero** en klik op **LED**. Sleep een `led = LED (pin)` blok naar de werkruimte onder het importblok. Hernoem de variabele van `led` naar `rood`, and verander `pin` naar `22`.
 
 \--- /task \---
 
 \--- task \---
 
-Drag in an `led.on` block, and dock it beneath the previous block. Change the `on` drop-down to `blink`. Your code blocks should now look like this:
+Sleep een `led.on` blok en plaats het onder het vorige blok. Verander de `on` drop-down naar `blink`. Je codeblokken moeten er nu als volgt uitzien:
 
 ![](images/edublocks2.png)
 
@@ -30,13 +30,13 @@ Drag in an `led.on` block, and dock it beneath the previous block. Change the `o
 
 \--- task \---
 
-Now click the **Run** button to run your code. You should see the red LED blink.
+Klik nu op de **Run** knop om je code uit te voeren. Je zou de rode LED moeten zien knipperen.
 
 \--- /task \---
 
 \--- task \---
 
-Now add some more LED blocks to introduce the other two lights, and make them blink at different speeds:
+Voeg nu nog meer LED-blokken toe om de andere twee LED's aan te sturen en laat ze op verschillende snelheden knipperen:
 
 ![](images/edublocks3.png)
 
@@ -44,12 +44,12 @@ Now add some more LED blocks to introduce the other two lights, and make them bl
 
 \--- task \---
 
-Run your code again and you should see the three lights flashing at different rates.
+Voer je code opnieuw uit en je zou de drie lichtjes met verschillende snelheden moeten zien knipperen.
 
 \--- /task \---
 
 \--- task \---
 
-If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+Als een groter getal het lampje langzamer laat knipperen, welk getal zou het dan sneller laten knipperen? Probeer je LED's sneller te laten knipperen.
 
 \--- /task \---
