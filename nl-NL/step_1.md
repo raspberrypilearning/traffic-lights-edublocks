@@ -1,6 +1,6 @@
 ## Introductie
 
-Learn to control traffic light LEDs and code a traffic lights sequence using EduBlocks.
+Leer een verkeerslicht te besturen en te programmeren met behulp van EduBlocks.
 
 \--- collapse \---
 
@@ -25,7 +25,7 @@ curl -sSL get.edublocks.org | bash
 
 * * *
 
-## title: What you will learn
+## title: Wat ga je leren
 
 - Controlling your Raspberry Pi's GPIO pins using EduBlocks
 - Using LEDs with your Raspberry Pi
