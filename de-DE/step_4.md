@@ -1,18 +1,18 @@
-## Traffic lights sequence
+## Verkehrsampel Sequenz
 
 \--- task \---
 
-The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Bring in the `import time` block from the **Basic** section. Try this example to turn the lights on in sequence:
+Die `on` Funktion ermöglicht es dir, ein Licht einzuschalten. Du kannst `sleep` verwenden, um das Programm anzuhalten. Füge den `Import time` Block aus dem **Basic** Bereich ein. Probiere dieses Beispiel aus, um die Lichter nacheinander einzuschalten:
 
 ![](images/edublocks4.png)
 
-The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+Die Hauptbefehle für LEDs sind `on`, `off`, `toggle` und `blink` (ein-, aus- und umschalten, blinken).
 
 \--- /task \---
 
 \--- task \---
 
-Try turning the lights on and off in sequence:
+Versuche die Lichter der Reihe nach ein- und auszuschalten:
 
 ![](images/edublocks5.png)
 
@@ -20,7 +20,7 @@ Try turning the lights on and off in sequence:
 
 \--- task \---
 
-Try repeating this by putting the code inside a `while` loop:
+Versuche dies zu wiederholen, indem du den Code in eine `while` Schleife einfügst:
 
 ![](images/edublocks6.png)
 
@@ -28,16 +28,16 @@ Try repeating this by putting the code inside a `while` loop:
 
 \--- task \---
 
-Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+Jetzt weisst du, wie man die Lichter individuell steuert und die Pausen zwischen den Befehlen einstellt. Kannst du eine Ampelsequenz erstellen? Die Reihenfolge lautet:
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- Grün ein
+- Gelb an
+- Rot an
+- Rot und Gelb an
+- Grün an
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+Es ist wichtig, über das Timing nachzudenken. Wie lange sollten die Lichter in jeder Phase eingeschaltet bleiben?
 
 \--- /task \---
 
-Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
+Wenn du die Ampelsequenz abgeschlossen hast, kannst du versuchen, eine Schaltfläche und einen Summer hinzuzufügen, um eine interaktive Ampel für einen Fußgängerübergang zu erstellen.
