@@ -1,18 +1,18 @@
-## Traffic lights sequence
+## Verkeerslichten volgorde
 
 \--- task \---
 
-The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Bring in the `import time` block from the **Basic** section. Try this example to turn the lights on in sequence:
+Met de `on` functie kan je een licht aanschakelen. Je kunt `sleep` gebruiken om te pauzeren tussen opdrachten. Sleep een `import time` blok uit de **Basic** sectie in het venster. Probeer dit voorbeeld eens om de lichten achter elkaar in te schakelen:
 
 ![](images/edublocks4.png)
 
-The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+De belangrijkste bedieningselementen voor LED's zijn `on` aan, `off` uit, `toggle` wissel en `blink` knipperen.
 
 \--- /task \---
 
 \--- task \---
 
-Try turning the lights on and off in sequence:
+Probeer de lichten achter elkaar in en uit te schakelen:
 
 ![](images/edublocks5.png)
 
@@ -20,7 +20,7 @@ Try turning the lights on and off in sequence:
 
 \--- task \---
 
-Try repeating this by putting the code inside a `while` loop:
+Probeer dit te herhalen door de code in een `while` lus te zetten:
 
 ![](images/edublocks6.png)
 
@@ -28,16 +28,16 @@ Try repeating this by putting the code inside a `while` loop:
 
 \--- task \---
 
-Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+Nu weet je hoe je de lichten en de pauzes tussen opdrachten afzonderlijk kunt besturen, kun je nu een goede volgorde en tijdsduur voor een verkeerslicht maken? De volgorde is:
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- Rood uit, groen aan
+- Groen uit, oranje aan
+- Oranje uit, rood aan
+- Rood en oranje aan
+- Groen aan
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+Het is belangrijk om na te denken over de tijdsduur van elk licht. Hoe lang moet het licht in elke fase aan blijven?
 
 \--- /task \---
 
-Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
+Nadat je de volgorde van het verkeerslicht hebt voltooid, kunt je proberen een knop en een zoemer toe te voegen om een ​​interactief verkeerslicht te maken voor een zebrapad.
