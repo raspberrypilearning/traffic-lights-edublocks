@@ -1,14 +1,14 @@
-## Control the LEDs
+## एल.ई.डी. को नियंत्रित करें.
 
 \--- task \---
 
-Open EduBlocks from the Desktop.
+डेस्कटॉप से ​​EduBlocks खोलें
 
 \--- /task \---
 
 \--- task \---
 
-Click the **gpiozero** drop-down, click **General** and drag the `from gpiozero import *` block into the workspace.
+**gpiozero** ड्रॉप-डाउन पर क्लिक करें, **General** क्लिक करें और `from gpiozero import *` ब्लॉक को कार्यक्षेत्र में खींचें।
 
 ![](images/edublocks1.png)
 
@@ -16,13 +16,13 @@ Click the **gpiozero** drop-down, click **General** and drag the `from gpiozero 
 
 \--- task \---
 
-Click the **Outputs** drop-down under **gpiozero** and click **LED**. Drag an `led = LED(pin)` block into the workspace beneath the import block. Rename the variable from `led` to `red`, and change `pin` to `22`.
+**gpiozero** के नीचे **Outputs** ड्रॉप-डाउन पर क्लिक करें और **LED** क्लिक करें। `led = LED(pin)` ब्लॉक को कार्यक्षेत्र में खींचें और उपस्थित इम्पोर्ट ब्लॉक के नीचे रखे। `led` से `red` और `pin` से `22` नाम बदलें।
 
 \--- /task \---
 
 \--- task \---
 
-Drag in an `led.on` block, and dock it beneath the previous block. Change the `on` drop-down to `blink`. Your code blocks should now look like this:
+`led.on` ब्लॉक को खींचें, और पिछले ब्लॉक के नीचे इसे डॉक करें। `on` ड्रॉप डाउन को `blink` में बदलें। आपका कोड ब्लॉक अब इस तरह दिखना चाहिए:
 
 ![](images/edublocks2.png)
 
@@ -30,13 +30,13 @@ Drag in an `led.on` block, and dock it beneath the previous block. Change the `o
 
 \--- task \---
 
-Now click the **Run** button to run your code. You should see the red LED blink.
+अपना कोड चलाने के लिए अब **Run** बटन पर क्लिक करें। आपको लाल एल. ई. डी. लाइट जलती दिखेगी।
 
 \--- /task \---
 
 \--- task \---
 
-Now add some more LED blocks to introduce the other two lights, and make them blink at different speeds:
+अब अन्य दो एल. ई. डी. जलने के लिए कुछ और ब्लॉक्स जोड़े, और उन्हें विभिन्न गतियों पर ब्लिंक करें:
 
 ![](images/edublocks3.png)
 
@@ -44,12 +44,12 @@ Now add some more LED blocks to introduce the other two lights, and make them bl
 
 \--- task \---
 
-Run your code again and you should see the three lights flashing at different rates.
+अपना कोड फिर से चलाएं(Run करे) और आपको तीन एल. ई. डी. विभिन्न दरों पर चमकती दिखाई देनी चाहिए।
 
 \--- /task \---
 
 \--- task \---
 
-If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+अगर प्रोग्राममे बड़ी संख्या लेने से एलईडी की ब्लिंक धीमी हो जाती है, तो तेजी से ब्लिंक करने के लिए प्रोग्राममे कितने नंबर लेने चाहिए? अपनी एलईडी को तेजी से ब्लिंक कराने की कोशिश करें।
 
 \--- /task \---
