@@ -1,15 +1,15 @@
-## Connect the LEDs
+## Collega i LED
 
 \--- task \---
 
-Connect your LEDs to the following pins:
+Collega i LED a questi pin:
 
-| LED   | GPIO pin |
-| ----- |:--------:|
-| Red   |    22    |
-| Amber |    27    |
-| Green |    17    |
+| LED    | Pin GPIO |
+| ------ |:--------:|
+| Rosso  |    22    |
+| Giallo |    27    |
+| Verde  |    17    |
 
-![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
+![pi-stop connesso ai pin GPIO 22, 27, 17 e alla terra](images/Traffic-Lights-Diagram.png)
 
 \--- /task \---
