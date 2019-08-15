@@ -1,14 +1,14 @@
-## Control the LEDs
+## Controlla i LED
 
 \--- task \---
 
-Open EduBlocks from the Desktop.
+Lancia EduBlocks dalla Scrivania.
 
 \--- /task \---
 
 \--- task \---
 
-Click the **gpiozero** drop-down, click **General** and drag the `from gpiozero import *` block into the workspace.
+Apri il menù **gpiozero**, seleziona **General** e trascina il blocco `from gpiozero import *` sullo spazio di lavoro.
 
 ![](images/edublocks1.png)
 
