@@ -1,17 +1,17 @@
 ---
-title: Traffic Lights with EduBlocks
-hero_image: images / banner.png
-description: Impara a controllare i semafori a LED e codifica una sequenza di semafori utilizzando EduBlocks
+title: Controlla un semaforo con EduBlocks
+hero_image: images/banner.png
+description: Impara a controllare un semaforo a LED e programma una sequenza semaforica usando EduBlocks
 listed: false
 copyedit: false
 version: 4.1
 last_tested: 2018-11-20
 steps:
   - 
-    title: introduzione
+    title: Introduzione
   - 
-    title: Connect the LEDs
+    title: Collega i LED
   - 
-    title: Control the LEDs
+    title: Controlla i LED
   - 
-    title: Traffic lights sequence
+    title: Sequenza del semaforo
