@@ -1,19 +1,19 @@
 ## Introduction
 
-Learn to control traffic light LEDs and code a traffic lights sequence using EduBlocks.
+Apprends à contrôler les LEDs du feu et à coder une séquence de feux de signalisation avec EduBlocks.
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: Ce qu'il te faut
 
-- Raspberry Pi computer
-- LEDs: 
-    - pi-stop traffic light board
-    - or 3x LEDs and resistors
+- Un ordinateur Raspberry Pi
+- LEDs : 
+    - Une carte pi-stop traffic light
+    - ou 3 LEDs et des résistances
 
-You'll also need to download EduBlocks. Open a Terminal window and run the following command:
+Tu auras aussi besoin de télécharger EduBlocks. Ouvre un Terminal et exécute la commande suivante :
 
 ```bash
 curl -sSL get.edublocks.org | bash
@@ -25,10 +25,10 @@ curl -sSL get.edublocks.org | bash
 
 * * *
 
-## title: What you will learn
+## title: Ce que tu vas apprendre
 
-- Controlling your Raspberry Pi's GPIO pins using EduBlocks
-- Using LEDs with your Raspberry Pi
+- Contrôler les ports GPIO de ton Raspberry Pi grâce à EduBlocks
+- Utiliser des LEDs avec ton Raspberry Pi
 
 \--- /collapse \---
 
@@ -36,11 +36,11 @@ curl -sSL get.edublocks.org | bash
 
 * * *
 
-## title: Information for Jam organisers
+## title: Informations pour les organisateurs de Jam
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-EduBlocks.pdf) is available. Please observe any notes on this page before printing.
+Si vous avez besoin d'imprimer ce projet, une [version PDF](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-EduBlocks.pdf) est disponible. Merci de prendre en considération toutes les notes de cette page avant d'imprimer.
 
 \--- /no-print \---
 
