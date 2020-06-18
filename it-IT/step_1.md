@@ -6,14 +6,14 @@ Impara a controllare un semaforo a LED e a programmare una sequenza di luci con 
 
 * * *
 
-## title: Di cosa avrai bisogno
+## title: Cosa ti servirà
 
 - Un computer Raspberry Pi
 - Led: 
-    - scheda semaforo pi-stop
+    - scheda pi-stop semaforo
     - in alternativa 3 Led e resistenze
 
-Avrai bisogno di scaricare EduBlocks. Apri una finestra di terminale ed esegui il comando:
+Avrai anche bisogno di scaricare EduBlocks. Apri una finestra di terminale ed esegui il comando:
 
 ```bash
 curl -sSL get.edublocks.org | bash
