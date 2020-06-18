@@ -1,6 +1,6 @@
-## भूमिका
+## परिचय
 
-Learn to control traffic light LEDs and code a traffic lights sequence using EduBlocks.
+ट्रैफिक लाइट एल ई डी को नियंत्रित करना सीखें और EduBlocks का उपयोग करके ट्रैफिक लाइट अनुक्रम को कोड करें।
 
 \--- collapse \---
 
@@ -8,12 +8,12 @@ Learn to control traffic light LEDs and code a traffic lights sequence using Edu
 
 ## title: आपको किन चीजों की आवश्यकता होगी
 
-- Raspberry Pi computer
-- LEDs: 
-    - pi-stop traffic light board
-    - or 3x LEDs and resistors
+- रास्पबेरी पाई कंप्यूटर
+- एल. ई. डी 
+    - पई-स्टॉप ट्रैफिक लाइट बोर्ड
+    - या 3 एल ई डी और रेसिस्टर या प्रतिरोधों
 
-You'll also need to download EduBlocks. Open a Terminal window and run the following command:
+आपको EduBlocks भी डाउनलोड करना होगा। एक टर्मिनल विंडो खोलें और कमांड टाइप करें:
 
 ```bash
 curl -sSL get.edublocks.org | bash
@@ -27,8 +27,8 @@ curl -sSL get.edublocks.org | bash
 
 ## title: आप क्या सीखेंगे
 
-- Controlling your Raspberry Pi's GPIO pins using EduBlocks
-- Using LEDs with your Raspberry Pi
+- EduBlocks का उपयोग करके अपने रास्पबेरी पाई के GPIO पिन को नियंत्रित करना
+- अपने रास्पबेरी पाई के साथ एलईडी का उपयोग करना
 
 \--- /collapse \---
 
@@ -36,11 +36,11 @@ curl -sSL get.edublocks.org | bash
 
 * * *
 
-## title: Information for Jam organisers
+## शीर्षक: जाम आयोजकों के लिए सूचना
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-EduBlocks.pdf) is available. Please observe any notes on this page before printing.
+यदि आपको इस परियोजना को प्रिंट करने की आवश्यकता है, तो [पीडीएफ(PDF) वर्ज़न](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-EduBlocks.pdf) उपलब्ध है। कृपया प्रिंट से पहले अगर इस पेज पर कोई भी नोट हो तो उसे पढे।
 
 \--- /no-print \---
 
