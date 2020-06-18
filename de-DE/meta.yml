@@ -1,0 +1,13 @@
+---
+title: Ampeln mit EduBlocks
+hero_image: images/banner.png
+description: Mit Hilfe von EduBlocks wirst du lernen Ampel-LEDs zu steuern und eine Ampelsequenz zu programmieren
+listed: false
+copyedit: false
+version: 4.1
+last_tested: 2018-11-20
+steps:
+  - title: Einleitung
+  - title: Verbinde die LEDs 
+  - title: Steuere die LEDs
+  - title: Verkehrsampel Sequenz
