@@ -1,18 +1,18 @@
-## Traffic lights sequence
+## Séquence de feux de signalisation
 
 \--- task \---
 
-The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Bring in the `import time` block from the **Basic** section. Try this example to turn the lights on in sequence:
+La fonction `on` te permets d'allumer une lumière. Tu peux utiliser `sleep` pour créer un temps d'attente entre les commandes. Insère le bloc `import time` depuis la section **Basics**. Essaie cet exemple pour allumer les lumières dans l'ordre :
 
 ![](images/edublocks4.png)
 
-The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+Les commandes principales pour les LEDs sont `on`, `off`, `toggle` et `blink`.
 
 \--- /task \---
 
 \--- task \---
 
-Try turning the lights on and off in sequence:
+Essaie d'allumer et d'éteindre les lumières dans l'ordre :
 
 ![](images/edublocks5.png)
 
@@ -20,7 +20,7 @@ Try turning the lights on and off in sequence:
 
 \--- task \---
 
-Try repeating this by putting the code inside a `while` loop:
+Essaie de répéter cette séquence en la plaçant dans une boucle `while` :
 
 ![](images/edublocks6.png)
 
@@ -28,16 +28,16 @@ Try repeating this by putting the code inside a `while` loop:
 
 \--- task \---
 
-Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+Maintenant tu sais comment contrôler les lumières individuellement et régler les pauses entre les commandes. Peux-tu créer une séquence de feux de signalisation ? La séquence fait :
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- Vert allumé
+- Orange allumé
+- Rouge allumé
+- Rouge et orange allumés
+- Vert allumé
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+Il est important de penser au timing. Combien de temps les lumières doivent-elles rester allumées à chaque étape ?
 
 \--- /task \---
 
-Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
+Une fois que tu as complété la séquence, tu pourrais essayer d'ajouter un bouton et un buzzer pour créer un feu de signalisation interactif pour un passage piéton.
