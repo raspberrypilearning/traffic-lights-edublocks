@@ -10,8 +10,8 @@ steps:
   - 
     title: Einleitung
   - 
-    title: Schließe die LED's an 
-  - 
     title: Verbinde die LEDs
   - 
     title: Steuere die LEDs
+  - 
+    title: Verkehrsampel Sequenz
