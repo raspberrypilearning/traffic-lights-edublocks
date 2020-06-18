@@ -10,6 +10,6 @@ Verbinde deine LEDs mit folgenden Pins:
 | Gelb |     27     |
 | Grün |     17     |
 
-![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
+![piStop verbindet sich über Gpio-Nummer 22, 27, 17 und Masse](images/Traffic-Lights-Diagram.png)
 
 \--- /task \---
