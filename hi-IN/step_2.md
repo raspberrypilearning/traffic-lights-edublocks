@@ -10,6 +10,6 @@
 | पीला       |    27    |
 | हरा        |    17    |
 
-![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
+![पाई स्टोप gpio 22,27,17 और ground से जुड़ा हुआ है](images/Traffic-Lights-Diagram.png)
 
 \--- /task \---
