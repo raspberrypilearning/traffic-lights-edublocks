@@ -1,14 +1,14 @@
-## Control the LEDs
+## Contrôle les LEDs
 
 \--- task \---
 
-Open EduBlocks from the Desktop.
+Ouvre EduBlocks depuis le Bureau.
 
 \--- /task \---
 
 \--- task \---
 
-Click the **gpiozero** drop-down, click **General** and drag the `from gpiozero import *` block into the workspace.
+Clique sur le menu déroulant **gpiozero** puis sur **Général** et glisse le bloc `from gpiozero import *` dans l'espace de travail.
 
 ![](images/edublocks1.png)
 
@@ -16,13 +16,13 @@ Click the **gpiozero** drop-down, click **General** and drag the `from gpiozero 
 
 \--- task \---
 
-Click the **Outputs** drop-down under **gpiozero** and click **LED**. Drag an `led = LED(pin)` block into the workspace beneath the import block. Rename the variable from `led` to `red`, and change `pin` to `22`.
+Clique sur le menu déroulant **Outputs** sous **gpiozero** puis clique sur **LED**. Glisse un bloc `led = LED(pin)` dans l'espace de travail sous le bloc d'import. Renomme la variable `led` en `red` et change `pin` en `22`.
 
 \--- /task \---
 
 \--- task \---
 
-Drag in an `led.on` block, and dock it beneath the previous block. Change the `on` drop-down to `blink`. Your code blocks should now look like this:
+Glisse un bloc `led.on` sous le bloc précédent. Change sa valeur `on` en `blink`. Ton code devrait maintenant ressembler à ça :
 
 ![](images/edublocks2.png)
 
@@ -30,13 +30,13 @@ Drag in an `led.on` block, and dock it beneath the previous block. Change the `o
 
 \--- task \---
 
-Now click the **Run** button to run your code. You should see the red LED blink.
+Clique sur le bouton **Run** pour exécuter ton code. Tu devrais voir la LED rouge clignoter.
 
 \--- /task \---
 
 \--- task \---
 
-Now add some more LED blocks to introduce the other two lights, and make them blink at different speeds:
+Ajoute maintenant plusieurs blocs LED pour intégrer les deux autres lumières et les faire clignoter à différentes vitesses :
 
 ![](images/edublocks3.png)
 
@@ -44,12 +44,12 @@ Now add some more LED blocks to introduce the other two lights, and make them bl
 
 \--- task \---
 
-Run your code again and you should see the three lights flashing at different rates.
+Exécute ton code à nouveau. Tu devrais voir les trois lumières clignoter à des fréquences différentes.
 
 \--- /task \---
 
 \--- task \---
 
-If a larger number makes a light blink slower, what number would make it run faster? Try to make your lights blink faster.
+Si un grand nombre fait clignoter une lumière lentement, quel nombre la ferait clignoter plus rapidement ? Essaie de faire clignoter tes lumières plus rapidement.
 
 \--- /task \---
