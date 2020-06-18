@@ -1,18 +1,18 @@
-## Traffic lights sequence
+## Il semaforo
 
 \--- task \---
 
-The `on` function allows you to turn a light on. You can use `sleep` to pause between commands. Bring in the `import time` block from the **Basic** section. Try this example to turn the lights on in sequence:
+La funzione `on` ti permette di accendere una luce. Puoi usare `sleep` per mettere in pausa tra i comandi. Trascina il blocco `import time`dalla sezione **Basic**. Prova questo esempio per accendere le luci in sequenza:
 
 ![](images/edublocks4.png)
 
-The main controls for LEDs are `on`, `off`, `toggle` and `blink`.
+I controlli principali per i LED sono `on`, `off`, `toggle` e `blink`.
 
 \--- /task \---
 
 \--- task \---
 
-Try turning the lights on and off in sequence:
+Prova ad accendere e spegnere in sequenza le luci:
 
 ![](images/edublocks5.png)
 
@@ -20,7 +20,7 @@ Try turning the lights on and off in sequence:
 
 \--- task \---
 
-Try repeating this by putting the code inside a `while` loop:
+Prova a ripetere questa sequenza inserendo il codice all'interno di un ciclo `while`:
 
 ![](images/edublocks6.png)
 
@@ -28,16 +28,16 @@ Try repeating this by putting the code inside a `while` loop:
 
 \--- task \---
 
-Now you know how to control the lights individually, and time the pauses between commands, can you create a traffic lights sequence? The sequence goes:
+Adesso che sai come si controllano le luci individualmente, e come si mette una pausa fra un comando e l'altro, sei in grado di creare una sequenza come quella dei semafori? La sequenza è questa:
 
-- Green on
-- Amber on
-- Red on
-- Red and amber on
-- Green on
+- Verde acceso
+- Giallo acceso
+- Rosso acceso
+- Rosso e giallo accesi
+- Verde acceso
 
-It's important to think about timing. How long should the lights stay on for at each stage?
+È importante pensare alla tempistica. Per quanto tempo dovrebbero rimanere accese le luci in ogni fase?
 
 \--- /task \---
 
-Once you have completed the traffic light sequence, you might want to try adding in a button and a buzzer to make an interactive traffic light for a pedestrian crossing.
+Una volta completata la sequenza delle luci, potresti provare ad aggiungere un pulsante e un cicalino per creare un semaforo interattivo che preveda l'attraversamento pedonale.
