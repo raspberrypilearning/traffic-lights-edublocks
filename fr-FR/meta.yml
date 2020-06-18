@@ -1,17 +1,17 @@
 ---
-title: Traffic Lights with EduBlocks
+title: Feux de signalisation avec EduBlocks
 hero_image: images / banner.png
-description: Apprenez à contrôler les voyants du feu et à coder une séquence de feux de circulation à l'aide d'EduBlocks
+description: Apprends à contrôler les LEDs du feu et à coder une séquence de feux de signalisation avec EduBlocks
 listed: false
 copyedit: false
 version: 4.1
 last_tested: 2018-11-20
 steps:
   - 
-    title: introduction
+    title: Introduction
   - 
-    title: Connect the LEDs
+    title: Connexion des LEDs
   - 
-    title: Control the LEDs
+    title: Contrôle des LEDs
   - 
-    title: Traffic lights sequence
+    title: Séquence de feux de circulation
