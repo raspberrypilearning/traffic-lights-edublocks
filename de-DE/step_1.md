@@ -8,12 +8,12 @@ Mit Hilfe von EduBlocks wirst du lernen Ampel-LEDs zu steuern und eine Ampelsequ
 
 ## title: Was du brauchen wirst
 
-- Raspberry Pi computer
-- LEDs: 
-    - pi-stop traffic light board
-    - or 3x LEDs and resistors
+- Raspberry Pi Computer
+- LEDs (Leuchtdioden): 
+    - pi-Stop-Ampel Bord
+    - oder 3x LEDs und Widerstände
 
-You'll also need to download EduBlocks. Open a Terminal window and run the following command:
+Du musst hierfür außerdem EduBlocks herunterladen. Öffne ein Terminalfenster und führe den folgenden Befehl aus:
 
 ```bash
 curl -sSL get.edublocks.org | bash
@@ -27,8 +27,8 @@ curl -sSL get.edublocks.org | bash
 
 ## title: Was du lernen wirst
 
-- Controlling your Raspberry Pi's GPIO pins using EduBlocks
-- Using LEDs with your Raspberry Pi
+- Steuere die GPIO-Pins deines Raspberry Pi mit EduBlocks
+- Wie man LEDs (Leuchtdioden) mit dem Raspberry Pi steuert
 
 \--- /collapse \---
 
@@ -36,11 +36,11 @@ curl -sSL get.edublocks.org | bash
 
 * * *
 
-## title: Information for Jam organisers
+## Titel: Informationen für Jam Organisatoren
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-EduBlocks.pdf) is available. Please observe any notes on this page before printing.
+Wenn du dieses Projekt ausdrucken willst, kannst du diese [PDF Version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-EduBlocks.pdf) dafür nutzen. Bitte beachte vor dem Druck alle Hinweise auf dieser Seite.
 
 \--- /no-print \---
 
