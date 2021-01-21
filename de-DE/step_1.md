@@ -27,7 +27,7 @@ curl -sSL get.edublocks.org | bash
 
 ## title: Was du lernen wirst
 
-- Steuere die GPIO-Pins deines Raspberry Pi mit EduBlocks
+- Wie man die GPIO-Pins deines Raspberry Pi mit EduBlocks steuert
 - Wie man LEDs (Leuchtdioden) mit dem Raspberry Pi steuert
 
 \--- /collapse \---
