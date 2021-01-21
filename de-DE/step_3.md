@@ -16,7 +16,7 @@ Klicke auf **gpiozero** im Dropdown-Menü, klicke auf **General** und ziehe den 
 
 \--- task \---
 
-Klicke auf **Outputs** im Dropdown-Menü unter **gpiozero** und klicke auf **LED**. Ziehe einen `led = LED(pin)` Block in den Arbeitsbereich unter den Importblock. Die `led` Variable muss auf `rot` umgennant werden, und `pin` auf `22` geändert werden.
+Klicke auf **Outputs** im Dropdown-Menü unter **gpiozero** und klicke auf **LED**. Ziehe einen `led = LED(pin)` Block in den Arbeitsbereich unter den Importblock. Die `led` Variable muss auf `rot` umbenannt werden, und `pin` auf `22` geändert werden.
 
 \--- /task \---
 
@@ -30,7 +30,7 @@ Ziehe einen `led.on` Block hinein und docke ihn unter dem vorherigen Block an. �
 
 \--- task \---
 
-Klicke nun auf **Run** in "menu" um den Code zu starten. Das rote LED müsste jetzt blinken.
+Klicke nun auf **Run** in "menu" um den Code zu starten. Du solltest sehen, dass die rote LED blinkt.
 
 \--- /task \---
 
@@ -44,7 +44,7 @@ Füge nun weitere LED-Blöcke mit den anderen Lichtfarben hinzu, und lasse sie m
 
 \--- task \---
 
-Führe deinen Code erneut aus und du sollten die drei Lichter mit unterschiedlichen Geschwindigkeiten blinken sehen.
+Führe deinen Code erneut aus und du solltest die drei Lichter mit unterschiedlichen Geschwindigkeiten blinken sehen.
 
 \--- /task \---
 
