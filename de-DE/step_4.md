@@ -12,7 +12,7 @@ Die Hauptbefehle für LEDs sind `on`, `off`, `toggle` und `blink` (ein-, aus- un
 
 \--- task \---
 
-Versuche die Lichter der Reihe nach ein- und auszuschalten:
+Versuche, die Lichter der Reihe nach ein- und auszuschalten:
 
 ![](images/edublocks5.png)
 
@@ -20,7 +20,7 @@ Versuche die Lichter der Reihe nach ein- und auszuschalten:
 
 \--- task \---
 
-Versuche dies zu wiederholen, indem du den Code in eine `while` Schleife einfügst:
+Versuche dies zu wiederholen, indem du den Code in eine `while`-Schleife einfügst:
 
 ![](images/edublocks6.png)
 
@@ -28,9 +28,9 @@ Versuche dies zu wiederholen, indem du den Code in eine `while` Schleife einfüg
 
 \--- task \---
 
-Jetzt weisst du, wie man die Lichter individuell steuert und die Pausen zwischen den Befehlen einstellt. Kannst du eine Ampelsequenz erstellen? Die Reihenfolge lautet:
+Jetzt weißt du, wie man die Lichter individuell steuert und die Pausen zwischen den Befehlen einstellt. Kannst du eine Ampelsequenz erstellen? Die Reihenfolge lautet:
 
-- Grün ein
+- Grün an
 - Gelb an
 - Rot an
 - Rot und Gelb an
