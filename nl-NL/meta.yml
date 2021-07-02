@@ -5,7 +5,7 @@ description: Leer een verkeerslicht te besturen en te programmeren met behulp va
 listed: false
 copyedit: false
 version: 4.1
-last_tested: 2017-01-01
+last_tested: 2018-11-20
 steps:
   - title: Inleiding
   - title: Verbind de LED's
