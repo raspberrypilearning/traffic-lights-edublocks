@@ -43,8 +43,11 @@ Het is belangrijk om na te denken over de tijdsduur van elk licht. Hoe lang moet
 Nadat je de volgorde van het verkeerslicht hebt voltooid, kunt je proberen een knop en een zoemer toe te voegen om een ​​interactief verkeerslicht te maken voor een zebrapad.
 
 
-**Door de community geleverde vertaling**
+***
+Dit project werd vertaald door vrijwilligers:
 
-Dit project werd vertaald door **Robert-Jan Kempenaar** en gecontroleerd door **Coen Warries**.
+Robert-Jan Kempenaar
+Coen Warries
+Sanneke van der Meer
 
-Onze geweldige vertalers helpen ons om kinderen over de hele wereld de kans te geven te leren coderen. Jij kunt ons helpen nog meer kinderen te bereiken door onze projecten te vertalen - lees meer op [rpf.io/translators](https://rpf.io/translators).
+Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).
