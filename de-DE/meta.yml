@@ -9,8 +9,6 @@ version: 4.1
 last_tested: 2018-11-20
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Verbinde die LEDs
 - title: Steuere die LEDs
-  completion: internal
 - title: Verkehrsampel Sequenz
